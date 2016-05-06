@@ -9,4 +9,3 @@ This is a Journaling File System(JFS) that could be used at top of any unix or l
 4. JFS with Multithreading and Fault tolerance
 
 The final phase in the completion of project.
-
