@@ -1,0 +1,13 @@
+HEADERS = journal_file_manager.h stdio.h
+
+default: test_case
+
+test_case.o: test_case.c $(HEADERS)
+	gcc -c test_case.c -o test_case.o
+
+program: test_case.o
+	gcc test_case.o -o test_case
+
+clean:
+	-rm -f test_case.o
+	-rm -f test_case

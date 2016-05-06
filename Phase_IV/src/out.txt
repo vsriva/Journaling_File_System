@@ -1,0 +1,423 @@
+
+String:0 Value:ABCDEFGHIJKLMN
+String:1 Value:abcdefghijklmn
+String:2 Value:ABCDEFGHIJKLMN
+String:3 Value:abcdefghijklmn
+String:4 Value:ABCDEFGHIJKLMN
+String:5 Value:abcdefghijklmn
+String:6 Value:ABCDEFGHIJKLMN
+String:7 Value:abcdefghijklmn
+String:8 Value:ABCDEFGHIJKLMN
+String:9 Value:abcdefghijklmn
+String:10 Value:ABCDEFGHIJKLMN
+String:11 Value:abcdefghijklmn
+String:12 Value:ABCDEFGHIJKLMN
+String:13 Value:abcdefghijklmn
+String:14 Value:ABCDEFGHIJKLMN
+String:15 Value:abcdefghijklmn
+String:16 Value:ABCDEFGHIJKLMN
+String:17 Value:abcdefghijklmn
+String:18 Value:ABCDEFGHIJKLMN
+String:19 Value:abcdefghijklmn
+String:20 Value:ABCDEFGHIJKLMN
+String:21 Value:abcdefghijklmn
+String:22 Value:ABCDEFGHIJKLMN
+String:23 Value:abcdefghijklmn
+String:24 Value:ABCDEFGHIJKLMN
+String:25 Value:abcdefghijklmn
+String:26 Value:ABCDEFGHIJKLMN
+String:27 Value:abcdefghijklmn
+String:28 Value:ABCDEFGHIJKLMN
+String:29 Value:abcdefghijklmn
+String:30 Value:ABCDEFGHIJKLMN
+String:31 Value:abcdefghijklmn
+String:32 Value:ABCDEFGHIJKLMN
+String:33 Value:abcdefghijklmn
+String:34 Value:ABCDEFGHIJKLMN
+String:35 Value:abcdefghijklmn
+String:36 Value:ABCDEFGHIJKLMN
+String:37 Value:abcdefghijklmn
+String:38 Value:ABCDEFGHIJKLMN
+String:39 Value:abcdefghijklmn
+Thread init
+Thread create
+CS-ALLOC-STATUS (File_ID:0 Cell_no:0.txt):Allocation completed Successfully
+Thread started
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:0):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+CS-READ-STATUS (File_ID:0 Cell_no:0.txt):Read completed Successfully
+0 0 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:0 Cell_no:0.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:0.txt):Read completed Successfully1
+-----------------READCURR:ABCDEFGHIJKLMN
+CS-ALLOC-STATUS (File_ID:0 Cell_no:1.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:1):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+CS-READ-STATUS (File_ID:0 Cell_no:1.txt):Read completed Successfully
+0 1 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:0 Cell_no:1.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:1.txt):Read completed Successfully2
+-----------------READCURR:abcdefghijklmn
+CS-ALLOC-STATUS (File_ID:0 Cell_no:2.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:0 Cell_no:3.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:0 Cell_no:4.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:1 Cell_no:5.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:1 Cell_no:6.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:1 Cell_no:7.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:0 Cell_no:8.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:1 Cell_no:9.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:0 Cell_no:10.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:0 Cell_no:11.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:10):Process Creation Completed
+CS-ALLOC-STATUS (File_ID:0 Cell_no:12.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:1 Cell_no:13.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:12):Process Creation Completed
+CS-ALLOC-STATUS (File_ID:0 Cell_no:14.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:14):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+CS-READ-STATUS (File_ID:0 Cell_no:14.txt):Read completed Successfully
+0 14 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:0 Cell_no:14.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-ALLOC-STATUS (File_ID:1 Cell_no:15.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:0 Cell_no:16.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:15):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+CS-READ-STATUS (File_ID:1 Cell_no:15.txt):Read completed Successfully
+1 15 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:1 Cell_no:15.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:15.txt):Read completed Successfully3
+-----------------READCURR:abcdefghijklmn
+CS-ALLOC-STATUS (File_ID:0 Cell_no:17.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:1 Cell_no:18.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:0 Cell_no:19.txt):Allocation completed Successfully
+CS-READ-STATUS (File_ID:0 Cell_no:14.txt):Read completed Successfully4
+CS-ALLOC-STATUS (File_ID:0 Cell_no:20.txt):Allocation completed Successfully
+-----------------READCURR:ABCDEFGHIJKLMN
+CS-ALLOC-STATUS (File_ID:0 Cell_no:21.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:0 Cell_no:22.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:0 Cell_no:23.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:1 Cell_no:24.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:1 Cell_no:25.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:1 Cell_no:26.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:23):Process Creation Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:26):Process Creation Completed
+CS-ALLOC-STATUS (File_ID:1 Cell_no:27.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:1 Cell_no:28.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:1 Cell_no:29.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:4):Process Creation Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:29):Process Creation Completed
+CS-ALLOC-STATUS (File_ID:0 Cell_no:30.txt):Allocation completed Successfully
+CS-ALLOC-STATUS (File_ID:1 Cell_no:31.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:6):Process Creation Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:31):Process Creation Completed
+CS-ALLOC-STATUS (File_ID:1 Cell_no:32.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:9):Process Creation Completed
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:11):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+CS-ALLOC-STATUS (File_ID:1 Cell_no:33.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:13):Process Creation Completed
+CS-ALLOC-STATUS (File_ID:1 Cell_no:34.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:8):Process Creation Completed
+CS-ALLOC-STATUS (File_ID:1 Cell_no:35.txt):Allocation completed Successfully
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:16):Process Creation Completed
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:17):Process Creation Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:18):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:20):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:24):Process Creation Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:25):Process Creation Completed
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:2):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:3):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:21):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:27):Process Creation Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:28):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:5):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:30):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:7):Process Creation Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:32):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:33):Process Creation Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:34):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:35):Process Creation Completed
+CS-READ-STATUS (File_ID:0 Cell_no:11.txt):Read completed Successfully
+0 11 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:0 Cell_no:11.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:0 Cell_no:12.txt):Read completed Successfully
+0 12 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:0 Cell_no:12.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:0 Cell_no:3.txt):Read completed Successfully
+0 3 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:0 Cell_no:3.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:0 Cell_no:4.txt):Read completed Successfully
+0 4 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:0 Cell_no:4.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:0 Cell_no:10.txt):Read completed Successfully
+0 10 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:0 Cell_no:10.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:0 Cell_no:8.txt):Read completed Successfully
+0 8 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:0 Cell_no:8.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:11.txt):Read completed Successfully5
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+CS-READ-STATUS (File_ID:0 Cell_no:16.txt):Read completed Successfully
+0 16 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:0 Cell_no:16.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:16.txt):Read completed Successfully6
+-----------------READCURR:ABCDEFGHIJKLMN
+CS-ALLOC-STATUS (File_ID:1 Cell_no:36.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:19):Process Creation Completed
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:22):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:36):Process Creation Completed
+CS-READ-STATUS (File_ID:0 Cell_no:2.txt):Read completed Successfully
+0 2 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:0 Cell_no:2.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:12.txt):Read completed Successfully7
+CS-ALLOC-STATUS (File_ID:0 Cell_no:37.txt):Allocation completed Successfully
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+-----------------READCURR:abcdefghijklmn
+CS-READ-STATUS (File_ID:0 Cell_no:19.txt):Read completed Successfully
+0 19 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:0 Cell_no:19.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+CS-READ-STATUS (File_ID:0 Cell_no:19.txt):Read completed Successfully8
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:37):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+CS-READ-STATUS (File_ID:0 Cell_no:20.txt):Read completed Successfully
+0 20 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:0 Cell_no:20.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:0 Cell_no:23.txt):Read completed Successfully
+0 23 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:0 Cell_no:23.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:0 Cell_no:21.txt):Read completed Successfully
+0 21 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:0 Cell_no:21.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:0 Cell_no:30.txt):Read completed Successfully
+0 30 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:0 Cell_no:30.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:0 Cell_no:22.txt):Read completed Successfully
+0 22 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:0 Cell_no:22.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:23.txt):Read completed Successfully9
+-----------------READCURR:abcdefghijklmn
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+CS-READ-STATUS (File_ID:0 Cell_no:37.txt):Read completed Successfully
+0 37 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:0 Cell_no:37.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:0 Cell_no:17.txt):Read completed Successfully
+0 17 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:0 Cell_no:17.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:37.txt):Read completed Successfully10
+-----------------READCURR:abcdefghijklmn
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:3.txt):Read completed Successfully11
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:4.txt):Read completed Successfully12
+-----------------READCURR:abcdefghijklmn
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:30.txt):Read completed Successfully13
+-----------------READCURR:ABCDEFGHIJKLMN
+CS-READ-STATUS (File_ID:1 Cell_no:9.txt):Read completed Successfully
+1 9 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:1 Cell_no:9.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:13.txt):Read completed Successfully
+1 13 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:1 Cell_no:13.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:5.txt):Read completed Successfully
+1 5 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:1 Cell_no:5.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:6.txt):Read completed Successfully
+1 6 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:1 Cell_no:6.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:7.txt):Read completed Successfully
+1 7 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:1 Cell_no:7.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:9.txt):Read completed Successfully14
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:13.txt):Read completed Successfully15
+-----------------READCURR:abcdefghijklmn
+CS-ALLOC-STATUS (File_ID:1 Cell_no:38.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:1, Cell No:38):Process Creation Completed
+CS-READ-STATUS (File_ID:1 Cell_no:24.txt):Read completed Successfully
+1 24 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:1 Cell_no:24.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:25.txt):Read completed Successfully
+1 25 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:1 Cell_no:25.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:26.txt):Read completed Successfully
+1 26 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:1 Cell_no:26.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:29.txt):Read completed Successfully
+1 29 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:1 Cell_no:29.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:31.txt):Read completed Successfully
+1 31 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:1 Cell_no:31.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:27.txt):Read completed Successfully
+1 27 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:1 Cell_no:27.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:28.txt):Read completed Successfully
+1 28 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:1 Cell_no:28.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:32.txt):Read completed Successfully
+1 32 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:1 Cell_no:32.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:33.txt):Read completed Successfully
+1 33 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:1 Cell_no:33.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:34.txt):Read completed Successfully
+1 34 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:1 Cell_no:34.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:35.txt):Read completed Successfully
+1 35 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:1 Cell_no:35.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:24.txt):Read completed Successfully16
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:1):Write Completed
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:25.txt):Read completed Successfully17
+-----------------READCURR:abcdefghijklmn
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:21.txt):Read completed Successfully18
+-----------------READCURR:abcdefghijklmn
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:28.txt):Read completed Successfully19
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:5.txt):Read completed Successfully20
+-----------------READCURR:abcdefghijklmn
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:7.txt):Read completed Successfully21
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:33.txt):Read completed Successfully22
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:35.txt):Read completed Successfully23
+-----------------READCURR:abcdefghijklmn
+CS-ALLOC-STATUS (File_ID:0 Cell_no:39.txt):Allocation completed Successfully
+JFM-NEW_ACTION-STATUS (File_ID:0, Cell No:39):Process Creation Completed
+JFM-WRITE_NEW_VALUE-STATUS (File_ID:0):Write Completed
+CS-READ-STATUS (File_ID:0 Cell_no:39.txt):Read completed Successfully
+0 39 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:0 Cell_no:39.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:39.txt):Read completed Successfully24
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:20.txt):Read completed Successfully25
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:26.txt):Read completed Successfully26
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:31.txt):Read completed Successfully27
+-----------------READCURR:abcdefghijklmn
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:10.txt):Read completed Successfully28
+-----------------READCURR:abcdefghijklmn
+CS-READ-STATUS (File_ID:1 Cell_no:38.txt):Read completed Successfully
+1 38 abcdefghijklmn
+CS-WRITE-STATUS (File_ID:1 Cell_no:38.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:18.txt):Read completed Successfully
+1 18 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:1 Cell_no:18.txt):Write completed Successfully
+CS-READ-STATUS (File_ID:1 Cell_no:36.txt):Read completed Successfully
+1 36 ABCDEFGHIJKLMN
+CS-WRITE-STATUS (File_ID:1 Cell_no:36.txt):Write completed Successfully
+Something to commit was there
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:38.txt):Read completed Successfully29
+-----------------READCURR:abcdefghijklmn
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:27.txt):Read completed Successfully30
+-----------------READCURR:abcdefghijklmn
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:32.txt):Read completed Successfully31
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:17.txt):Read completed Successfully32
+-----------------READCURR:abcdefghijklmn
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:36.txt):Read completed Successfully33
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:29.txt):Read completed Successfully34
+-----------------READCURR:abcdefghijklmn
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:2.txt):Read completed Successfully35
+-----------------READCURR:abcdefghijklmn
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:34.txt):Read completed Successfully36
+-----------------READCURR:abcdefghijklmn
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:22.txt):Read completed Successfully37
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:6.txt):Read completed Successfully38
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:1):Commit Completed
+CS-READ-STATUS (File_ID:1 Cell_no:18.txt):Read completed Successfully39
+-----------------READCURR:ABCDEFGHIJKLMN
+JFM-COMMIT-STATUS (File_ID:0):Commit Completed
+CS-READ-STATUS (File_ID:0 Cell_no:8.txt):Read completed Successfully40
+-----------------READCURR:abcdefghijklmn
+Thread finished
+Recovery_Manager-CHECK_FOR_ERROR-Status:Saving Checkpoint
+Memory freed
+
+Program complete
