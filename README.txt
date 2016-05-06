@@ -8,4 +8,4 @@ This is a Journaling File System(JFS) that could be used at top of any unix or l
 3. JFS with fault tolerance
 4. JFS with Multithreading and Fault tolerance
 
-The final phase in the completion of project. Each folder with different phases contains the readme file, status report to run the test cases for the filesystem. 
+The final phase in the completion of project. Each folder for different phases contains the readme file, status report and makefile to run the test cases for the filesystem.
