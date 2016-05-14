@@ -8,4 +8,4 @@ This is an in-memory multithreaded fault tolerant Journaling File System(JFS) th
 3. JFS with fault tolerance
 4. JFS with Multithreading and Fault tolerance
 
-The final phase in the completion of project. Each folder for different phases contains the readme file, status report and makefile to run the test cases for the filesystem.
+The final phase is the completion of project. Each folder is for different phases and contains the readme file, status report and makefile to run the test cases for the filesystem.
